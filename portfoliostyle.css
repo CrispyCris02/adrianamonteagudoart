@@ -1,0 +1,42 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Century Gothic';
+    background: linear-gradient(#ffffff);
+}
+
+
+.portfolio-container{
+    margin-right: 50px;
+}
+
+.portfolio-container h1{
+    font-weight: 600;
+    color:#d85e81;
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+.line-1 {
+    height: 8px;
+    width: 100%;
+    display: inline-block;
+    background: #d85e81;
+    margin: 15px 0;
+}
+.portfolio-container h2{
+    font-weight: 600;
+    color:#d85e81;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.portfolio-container a img{
+    width: 60px;
+}
+
+@media (max-width:800px){
+
+
+}
