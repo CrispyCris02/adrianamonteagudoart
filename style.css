@@ -1,0 +1,267 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Century Gothic';
+    background: linear-gradient(#d85e81,#f7ff98);
+}
+.header-top img{
+    width: 100%;
+
+}
+#header-container{
+    margin-right: 130px;
+    margin-left: 20px;
+}
+.header-title{
+    font-weight: 600;
+    color:#f7ff98;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.square{
+    height: 8px;
+    width: 465px;
+    display: inline-block;
+    background: #f7ff98;
+    margin: 15px 0;
+
+}
+.header-title h2{
+    font-size: 30px;
+    color: black;
+}
+.header-sub{
+    max-width: 350px;
+    margin-top: 80px;
+}
+.header-sub h2{
+    font-weight: 600;
+    color:#f7ff98;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.header-sub h3{
+    font size: 100px;
+}
+.portfolio-container{
+    margin-right: 50px;
+}
+
+.portfolio-container h1{
+    font-weight: 600;
+    color:#f7ff98;
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+.line-1 {
+    height: 8px;
+    width: 100%;
+    display: inline-block;
+    background: #f7ff98;
+    margin: 15px 0;
+}
+.portfolio-container h2{
+    font-weight: 600;
+    color:#d85e81;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.portfolio-container a{
+    display: flex;
+    align-items: center;
+    padding:15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#d85e81);
+    cursor: pointer;
+}
+.portfolio-container a img{
+    height: 15px;
+}
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #f7ff98;
+    z-index: 2;
+    transition: .5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #d85e81;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+
+
+#contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color:#d85e81;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 475px;
+    height: 5px;
+    background-color: #d85e81;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #d85e81;
+}
+.contact-inputs::placeholder{
+    color:#a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding:15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#d85e81);
+    cursor: pointer;
+}
+.contact-left button img{
+    height: 15px;
+}
+#contact-right img{
+    width: 1200px;
+}
+
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+}
+.footer-right-col{
+    flex-basis: 45%;
+}
+.footer-left-col img{
+width: 100px;
+}
+.footer-left-col button{
+    padding: 12px 38px;
+    margin-top: 20px;
+}
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+
+
+@media (max-width:800px){
+    .contact-inputs{
+        width: 80vw;
+    }
+    #contact-right{
+        display: none;
+    }
+    .portfolio-container{
+        background-image: none;
+    }
+    #header-container{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .header-top img{
+        width: 100%;
+
+    }
+
+    .square{
+        height: 8px;
+        width: 400px;
+        display: inline-block;
+        background: #f7ff98;
+        margin: 15px 0;
+    }
+    .portfolio-container h1{
+        font-weight: 600;
+        color:#f7ff98;
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    .line-1 {
+        height: 8px;
+        width: 450px;
+        display: inline-block;
+        background: #f7ff98;
+        margin: 15px 0;
+    }
+    #menuBtn{
+        width: 40px;
+        position: fixed;
+        right: 20px;
+        top: 35px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .images{
+        width: -100px;
+    }
+    
+    
+}
